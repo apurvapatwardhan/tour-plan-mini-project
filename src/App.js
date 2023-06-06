@@ -15,7 +15,7 @@ const App = () => {
   if(tours.length === 0) {
     return (<div className='refresh'>
       <h2>No Tours Left</h2>
-      <button onClick={refreshData}>Refresh Now</button>
+      <button className="btn-white" onClick={refreshData}>Refresh Now</button>
     </div>)
   }
   return <div className = 'App'>
